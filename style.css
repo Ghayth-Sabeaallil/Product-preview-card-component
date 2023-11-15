@@ -1,0 +1,103 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+.container {
+  display: flex;
+}
+.image {
+  width: 21rem;
+  height: 31rem;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.info {
+  background-color: white;
+  width: 21rem;
+  height: 31rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2.3rem 2.3rem 2.3rem 2.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.type {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.4em;
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+.title {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 37px;
+  line-height: 1;
+  padding-bottom: 1.3rem;
+}
+
+.product-info {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 16px;
+  padding-bottom: 1.7rem;
+  line-height: 1.7;
+}
+.price {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.3rem;
+}
+.new-price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 38px;
+  padding-right: 0.4em;
+}
+.old-price {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration-line: line-through;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+  border: 1px solid hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(158, 36%, 37%);
+  height: 3.5rem;
+  border-radius: 10px;
+  padding: 0rem 4.5rem 0rem 4.5rem;
+}
